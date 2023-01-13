@@ -1,0 +1,12 @@
+{
+    "name": "myapp/project",
+    "description": "test project",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Myapp\\Project\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}

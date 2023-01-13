@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: #ecf0f1;
+
+}
+
+form {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 20px;
+  border-bottom: 5px solid black;
+}
+
+.navbar span {
+  font-size: 30px;
+  font-weight: 900;
+
+}
+
+ 
+
+
+.product-list-section {
+  padding-top: 50px;
+}
+
+.main-product-list {
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
+  column-gap: 50px;
+  row-gap: 50px;
+}
+
+/* main product styling section starts */
+
+.main-product {
+  height: 250px;
+  width: auto;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.6;
+  overflow: hidden;
+  border: 2px solid black;
+  transition: 0.3s ease-in-out;
+
+
+}
+
+.main-product:hover{
+  transform: scale(1.1);
+  
+}
+
+.delete-checkbox {
+  height: 30px;
+  width: 30px;
+  margin-right: 250px;
+  margin-bottom: 10px;
+}
+
+
+
+/* main product styling section ends */
+
+.empty-post {
+  color: red;
+  font-size: 40px;
+  font-weight: 900;
+
+}
+
+/* ====== product add main form section starts ====== */
+
+#product_form .form-section {
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+ 
+
+
+#product_form .main-form {
+  margin-top: 50px;
+  color: rgb(0, 0, 0);
+  width: 500px;
+
+
+}
+
+#product_form .form-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#product_form .form-div2 input {
+  height: 50px;
+  width: 300px;
+  padding: 0 10px;
+  caret-color: red;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 2px solid black;
+
+}
+
+
+/* == now styling for select */
+
+#productType {
+  height: 40px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 70px;
+  border-radius: 5px;
+
+}
+
+
+.size,
+.weight,
+.height,
+.width,
+.length {
+  display: none;
+}
+
+/* ====== product add main form section ends ====== */
+
+/* ========= product-add-section styling ends ========== */
+
+
+/*===== Button Section ======*/
+
+a{
+  text-decoration: none;
+   
+}
+
+button{
+
+  outline: none;
+}
+
+
+#delete-product-btn{
+  border: 3px solid red;
+}
+
+#delete-product-btn:hover {
+  background-color: red;
+  color: white;
+  
+ 
+}
+
+ .btn{
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: black;
+  font-size: 20px;
+  font-weight: 900;
+  transition: 0.3s ease-in-out;
+
+
+ }
+
+ .btn:hover{
+  cursor:pointer !important;
+ }
+
+.btn-add{
+  border: 3px solid #0984e3;
+}
+
+.btn-save{
+  border: 3px solid green;
+}
+
+.btn-cancel{
+  border: 3px solid black;
+}
+
+ .btn-add, .btn-save{
+  margin-right: 20px;
+ }
+
+ .btn-add:hover{
+  background-color: #0984e3;
+  color: white;
+ 
+ }
+
+ .btn-save:hover{
+  background-color: green;
+  color: white;
+}
+
+.btn-cancel:hover{
+  background-color: black;
+  color: white;
+}
+ 
+
+/* === footer-banner styling === */
+
+.banner{
+  width: 90%;
+  margin: 200px auto 0 auto;
+  line-height: 4;
+  text-align: center;
+  border-top: 5px solid black;
+
+}
+
+.banner h1{
+  color: black;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.banner h1 span{
+  color: red;
+}
